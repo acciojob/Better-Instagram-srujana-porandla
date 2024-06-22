@@ -1,6 +1,6 @@
 //your code here
 document.addEventListener('DOMContentLoaded', (event) => {
-    let dragged;
+    let dragged=null;
 
     document.querySelectorAll('.image').forEach(item => {
         item.addEventListener('dragstart', (e) => {
